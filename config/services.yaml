@@ -6,6 +6,14 @@
 parameters:
 
 services:
+    App\State\UserProcessor:
+        arguments:
+            - '@security.helper'
+            
+    acme_api.event.jwt_created_listener:
+        class: App\EventListener\JWTCreatedListener
+        tags:
+            - { name: kernel.event_listener, event: lexik_jwt_authentication.on_jwt_created, method: onJWTCreated }
     # default configuration for services in *this* file
     _defaults:
         autowire: true      # Automatically injects dependencies in your services.
