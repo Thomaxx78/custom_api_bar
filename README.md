@@ -8,7 +8,7 @@
 
 ### 1. Navigate to the project directory
 ```bash
-cd create-API
+cd custom-api-bar
 ```
 ### 2. Install libraries
 ```bash
