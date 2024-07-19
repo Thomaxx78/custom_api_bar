@@ -45,3 +45,7 @@ symfony serve
 
 ### Information pour Yoann COUALAN
 Les routes normalement accessible uniquement par le ROLE_PATRON ont été faites de manière à être accessible via les autres rôles mais en affichant uniquement les informations disponible pour eux (celle du ROLE_USER plutôt que de tous les ROLES que peut voir le patron)
+
+L'export PostMan est disponible à la racine du projet 
+
+Toutes les fonctionnalités ont été faites
